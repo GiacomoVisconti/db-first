@@ -6,7 +6,7 @@
 - brand | VARCHAR(50) INDEX NOT_NULL
 - model | VARCHAR(50) INDEX NOT_NULL
 - registration_date | DATE NOT_NULL
-- selling_price | DECIMAL NOT_NULL INDEX
+- selling_price | DECIMAL(8,2) NOT_NULL INDEX
 - km_done | MEDIUMINIT NOT_NULL
 - ~~ market_price ? ~~
 - license_plate | VARCHAR(7) NOT_NULL
